@@ -9,6 +9,3 @@ deploy:
   app: pizzalp4a
   on:
     repo: christo574/LP4Apizza
-    addons:
-  code_climate:
-    repo_token: 02b37dc6ac3c826ea49bf136a2a4f107888440c0afc13dd6b015c9a377f13851
