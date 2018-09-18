@@ -1,10 +1,4 @@
 language: ruby
 rvm:
 - 2.4.4
-deploy:
-  provider: heroku
-  api_key:
-    secure: Z36H7SXmHEVF4AntA79aBvR25LZKIzFPZH4kll9K1WACQZq6WZzFWY6s8z3PUwqXhzdijZHNTtVSGz1bzq61G+B8hdbtrCBmE4V7tNBmVbXam9N8T3aE7BoJgkqPFYBe80TYssxaLgN5Sl2NiiAoJ/YyWvZJ8QcGP6LZWGNpTkPAaXC3hJ9Bf/rU+ljEkNNSO4ldL2ELR5L4zsYPTPoc1/bI5g8L5P0rpz7uN9qXoUqMHqVTkZm2ROV+C/O4r1LwIE2iV+o/UXVVgQQoBr0BHHGfyl/ZZr0/QXUOGcZ6PEDKrjujZZ89klAH/T7FtxKP1vdwcgJJT3lo2NPrVOmDgmTAyIrZsB44rn+PABvdRtz3AXqn9ECLOctmeC8PgyQvBypTziclwP0n3XXORMwlJF3LwRLaHZz+JnAtnb1jZF1Aw4WgdIF57Mzv0L2AFIwDVVMi8hN5sSAox8IseFvf6dPLwbs3snM5VrRw3srW6srWuZ9IKPcL0U1gdqjwc2Ulciz6hwRKJI/CkJYt8wCs1VgHVR4EnRDAVTjJfL7sLbdETicirf/pzw9YHe/9uh7p75uMNfHiqM/p6gSjPBq0Gp3xa1Nfg27wCIIdg5MF7JIJVp3IT/ycKm3AEv1FoUNnyeNoEPHIuQD7t1/xa1nPRsyVxytGPVn/m9mmiKcLqM4=
-  app: projetlp4a
-  on:
-    repo: christo574/LP4Apizza
+
