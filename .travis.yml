@@ -11,7 +11,7 @@ deploy:
   run: "rake db:migrate"
   app: pizzalp4a
   on:
-    repo: christo574/LP4Apizza
+    repo: stanicchris/LP4Apizza
 
 before_script:
   - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
