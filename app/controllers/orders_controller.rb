@@ -19,7 +19,7 @@ class OrdersController < ApplicationController
 	  next
 	end 
 	p @orderPizza
-	newOrderline = Orderline.new
+	newOrderline = OrderLine.new
 	newOrderline.order=newOrder
 	newOrderline.pizza=@orderPizza
 	newOrderline.save
@@ -31,7 +31,7 @@ class OrdersController < ApplicationController
     @allOrders = Order.all
     @allOrders.each do |order|
       pizzas = []
-      @orderlines=Orderline.where(order: order)
+      @orderlines=OrderLine.where(order: order)
       @orderlines.each do |orderline|
           pizza = Pizza.find(orderline[:pizza_id])
           pizzas.push(pizza)
